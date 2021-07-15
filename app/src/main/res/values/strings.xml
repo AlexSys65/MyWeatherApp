@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MyWeatherApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="place_not_found">Sorry, no weather data found.</string>
+    <string name="connecting">Connecting...</string>
+    <string name="update">Update...</string>
+    <string name="icon">Icon</string>
+    <string name="detail">Details</string>
+    <string name="temperature_field">Temperature</string>
+
+    <string name="weather_sunny">&#xf04d;</string>
+    <string name="weather_clear_night">&#xf02e;</string>
+    <string name="weather_foggy">&#xf014;</string>
+    <string name="weather_cloudy">&#xf013;</string>
+    <string name="weather_rainy">&#xf019;</string>
+    <string name="weather_snowy">&#xf01b;</string>
+    <string name="weather_thunder">&#xf01e;</string>
+    <string name="weather_drizzle">&#xf01c;</string>
+    <string name="go">Go</string>
+    <string name="name_list_city">List of settlements</string>
+    <string name="image_str">Weather ICON</string>
+</resources>

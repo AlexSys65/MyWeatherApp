@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="@dimen/margin"
+    app:cardCornerRadius="@dimen/radius_cardview">
+
+    <TextView
+        android:id="@+id/name_city_and_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/connecting"
+        android:textSize="@dimen/city_field"/>
+    <TextView
+        android:id="@+id/coordinates_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/temperature_field"
+        android:textSize="@dimen/update_field"
+        android:layout_marginTop="@dimen/margin_top"/>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="city_field">24sp</dimen>
+    <dimen name="update_field">14sp</dimen>
+    <dimen name="icon_field">125sp</dimen>
+    <dimen name="detail_field">20sp</dimen>
+    <dimen name="temperature_field">45sp</dimen>
+    <dimen name="margin_top">30dp</dimen>
+    <dimen name="radius_cardview">10dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/city_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/connecting"
+        android:textSize="@dimen/city_field" />
+
+    <TextView
+        android:id="@+id/update_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/city_field"
+        android:layout_centerHorizontal="true"
+        android:text="@string/update"
+        android:textSize="@dimen/update_field" />
+
+    <ImageView
+        android:id="@+id/weather_icon"
+        android:layout_width="164dp"
+        android:layout_height="164dp"
+        android:layout_below="@id/update_field"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin"
+        android:contentDescription="@string/image_str" />
+
+    <TextView
+        android:id="@+id/detail_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weather_icon"
+        android:layout_centerHorizontal="true"
+        android:text="@string/detail"
+        android:textSize="@dimen/detail_field" />
+
+    <TextView
+        android:id="@+id/current_temperature_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/temperature_field"
+        android:textSize="@dimen/temperature_field" />
+
+</RelativeLayout>
